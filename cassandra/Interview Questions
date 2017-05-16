@@ -21,3 +21,20 @@ Consistency guarantees the return of most recent write for the client,
 Availability returns a rational response within minimum time and 
 in Partition Tolerance, the system will continue its operations when network partitions occur.
 The two options available are AP and CP.
+
+6. State the differences between a node, a cluster and datacenter in Cassandra.
+While a node is a single machine running Cassandra,
+cluster is a collection of nodes that have similar type of data grouped together. 
+DataCenters are useful components when serving customers in different geographical areas. 
+You can group different nodes of a cluster into different data centers.
+
+7. How to write a query in Cassandra?
+Using CQL (Cassandra Query Language).
+Cqlsh is used for interacting with database.
+
+8.column family
+A column family is a container for an ordered collection of rows.
+
+9.SuperColumn
+A super column is a special column, therefore, it is also a key-value pair. 
+But a super column stores a map of sub-columns.
