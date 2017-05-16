@@ -1,0 +1,23 @@
+1.what is consistency?
+Consistency refers to the up-to-date and synchronized data rows on all their replicas.一致性指一行数据的所有replica是否最新和同步。
+2.How does Cassandra write?
+    Logging data in the commit log
+    Writing data to the memtable
+    Flushing data from the memtable
+    Storing data on disk in SSTables
+3.Define memtable.
+Similar to table, memtable is in-memory cache space consisting of content in key and column format. 
+The data in memtable is sorted by key, and each ColumnFamily consist of a distinct memtable that retrieves column data via key. 
+It stores the writes until it is full, and then flushed out.
+4.SSTable
+SSTable:Sorted String Table, which refers to an important data file in Cassandra and accepts regular written memtables. 
+They are stored on disk and exist for each Cassandra table.
+
+5. Explain CAP Theorem.
+CAP Theorem plays a major role in maintaining the scaling strategy.
+Consistency Availability and Partition tolerance (CAP) theorem states that in distributed systems like Cassandra, 
+users can enjoy only two out of these three characteristics.One of them needs to be sacrificed. 
+Consistency guarantees the return of most recent write for the client,
+Availability returns a rational response within minimum time and 
+in Partition Tolerance, the system will continue its operations when network partitions occur.
+The two options available are AP and CP.
