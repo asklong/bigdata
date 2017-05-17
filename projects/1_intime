@@ -10,3 +10,13 @@ for item1, we could recommond item2, item3 by the high possibility of the items.
 we have only about 300 items. so we could cluster the uses by the items they bought.
 to make the user less. so item will have less users in the same cluster.
 to get the simailitary by the users in the same cluster.
+
+data from intime.
+data from ali
+we get the high possibility items from intime.
+we get the high possibility items from ali.
+
+items from intime, we get the same item user data from ali.
+both by the cf.
+then do the recommendation.
+CN201410736666.3
