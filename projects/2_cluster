@@ -1,1 +1,10 @@
-1. 
+1.  This suggests the following procedure for finding the k means:
+
+    Make initial guesses for the means m1, m2, ..., mk
+    Until there are no changes in any mean
+        Use the estimated means to classify the samples into clusters
+        For i from 1 to k
+            Replace mi with the mean of all of the samples for cluster i
+        end_for
+    end_until
+
