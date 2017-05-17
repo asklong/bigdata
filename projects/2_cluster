@@ -7,4 +7,8 @@
             Replace mi with the mean of all of the samples for cluster i
         end_for
     end_until
+    
+    2.difficult is to chose the k value. nu
+    
+    
 
