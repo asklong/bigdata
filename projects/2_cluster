@@ -9,8 +9,11 @@
     end_until
     
     2.difficult is to chose the k value. 
-    here is some metho to 
+    here is some method to get a better k for the k-means method.
+    Using the elbow method to determine the optimal number of clusters for k-means clustering
     https://bl.ocks.org/rpgove/0060ff3b656618e9136b
+    
+    
     
     
 
