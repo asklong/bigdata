@@ -1,0 +1,12 @@
+1.project and the technology of the project review
+2. what's the algoritm.
+CF.
+we get the item and the users who bought the item.
+(item, (use1,user2,user3...))
+we computer the item similitary from item1 and item2, by the users of item1 and item2.
+
+for item1, we could recommond item2, item3 by the high possibility of the items.
+
+we have only about 300 items. so we could cluster the uses by the items they bought.
+to make the user less. so item will have less users in the same cluster.
+to get the simailitary by the users in the same cluster.
